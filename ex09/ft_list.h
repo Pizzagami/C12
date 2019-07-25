@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: selgrabl <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/07/25 14:13:02 by selgrabl          #+#    #+#             */
-/*   Updated: 2019/07/25 14:13:04 by selgrabl         ###   ########.fr       */
+/*   Created: 2019/07/25 22:45:05 by selgrabl          #+#    #+#             */
+/*   Updated: 2019/07/25 22:45:11 by selgrabl         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,5 +18,7 @@ typedef struct		s_list
 	struct s_list	*next;
 	void			*data;
 }					t_list;
+
+t_list				*ft_create_elem(void *data);
 
 #endif
